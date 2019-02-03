@@ -63,10 +63,10 @@ describe('calculateTotalPoints', () => {
       assert.equal(actual, expected);
     })
 		
-    it('should return 184', () => {
+    it('should return 184.0', () => {
       const actual = calculateTotalPoints(212.0, 'flying', 200, [18.0, 18.0, 18.0, 17.5, 17.5], -3.9, 0);
 
-      const expected = '184';
+      const expected = '184.0';
 
       assert.equal(actual, expected);
     })

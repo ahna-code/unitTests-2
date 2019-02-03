@@ -41,7 +41,7 @@ describe('calculateDistancePoints', () => {
     describe('flying', () => {
         it('jump more than K-point, should return 134.4', () => {
             const actual = calculateDistancePoints(212, 'flying', 200);
-            const expected = '150';
+            const expected = '134.4';
             assert.equal(actual, expected);
         });
         it('jump less than K-point, should return 90', () => {
